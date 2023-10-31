@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.axis_grid {
+    display: flex;
+}
+
+.axis_grid li{
+    list-style-type: none;
+}
+
+.xAxis{
+    flex-direction: row;
+    align-items: flex-end;
+}
+.yAxis{
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+}
+.yAxis ul{
+    display: flex;
+}
+
+.axis_cells{
+    width: 30px;
+    height: 30px;
+    background-color: bisque;
+    border: 1px solid gray;
+}
+
+
+
+
+
+.axis_cells p{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.scale{
+    animation: scale 0.2s ease-in-out;
+}
+
+@keyframes scale {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
