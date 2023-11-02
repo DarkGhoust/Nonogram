@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&display=swap');
+
+:root{
+    --border-color: #bebebe;
+    --cell-size: min(30px, 4.7vw);
+    --black: #2d4354;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: var(--black);
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.heading{
+    font-family: 'Press Start 2P';
+}
+
+.col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+h1{
+    font-size: max(5vw, 34px);
+    padding: 0.2em 0.6em;
+    text-align: center;
+}
+h2{
+    font-size: max(3.5vw, 34px);
+    padding: 0.2em 0.6em;
+    text-align: center;
+}
+.white-bg{
+    background-color: white;
+}
+
+.App{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/img/bg.png');
+    background-size: cover;
+    padding: 12px;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.flex{
+    display: flex;
+}
+.gap-0{
+    gap: 8px;
+}
+
+.spacer{
+    margin-bottom: 16px;
+}
+
+hr{
+    display: block;
+    height: 0;
+    border: 0;
+}
+
+.btn{
+    border: 1px solid var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.4em 1.2em;
+    background-color: white;
+    text-decoration: none;
+    color: var(--black);
+}
+.btn img{
+    width: 0.5em;
+}
+
+.shadow{
+    box-shadow: 2px 2px 6px 0px #d7e6ff;
+}
+
+@keyframes scale {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

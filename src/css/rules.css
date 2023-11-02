@@ -1,0 +1,27 @@
+.rules{
+    border: 1px solid var(--black);
+    padding: 16px 16px;
+    max-width: 40%;
+    overflow: auto;
+    max-height: calc(100vh - 24px);
+}
+.rules p {
+    margin-bottom: 8px;
+}
+
+.rules ol{
+    margin-left: 24px;
+}
+.rules li{
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1000px) {
+    .App:has(.puzzle){
+        flex-direction: column;
+    }
+    .rules{
+        margin-top: 24px;
+        max-width: 100%;
+    }
+}

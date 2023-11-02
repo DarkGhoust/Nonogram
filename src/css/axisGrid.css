@@ -1,0 +1,36 @@
+.axis_grid {
+    display: flex;
+}
+
+.axis_grid li{
+    list-style-type: none;
+}
+
+.xAxis{
+    flex-direction: row;
+    align-items: flex-end;
+}
+.yAxis{
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+}
+.yAxis ul{
+    display: flex;
+}
+
+.xAxis ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.axis_cells{
+    background-color: #e4e4e4;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
