@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nonogram/static/css/main.a2e5b616.css",
-    "main.js": "/nonogram/static/js/main.50c94e45.js",
+    "main.js": "/nonogram/static/js/main.74253d69.js",
     "static/js/787.6d2e36c3.chunk.js": "/nonogram/static/js/787.6d2e36c3.chunk.js",
     "static/media/bg-transparent.jpg": "/nonogram/static/media/bg-transparent.00e4d11a389b4f318762.jpg",
     "static/media/bg.png": "/nonogram/static/media/bg.5604027836d92b7a31f4.png",
     "index.html": "/nonogram/index.html",
     "main.a2e5b616.css.map": "/nonogram/static/css/main.a2e5b616.css.map",
-    "main.50c94e45.js.map": "/nonogram/static/js/main.50c94e45.js.map",
+    "main.74253d69.js.map": "/nonogram/static/js/main.74253d69.js.map",
     "787.6d2e36c3.chunk.js.map": "/nonogram/static/js/787.6d2e36c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e5b616.css",
-    "static/js/main.50c94e45.js"
+    "static/js/main.74253d69.js"
   ]
 }
