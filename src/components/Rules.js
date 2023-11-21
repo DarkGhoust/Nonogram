@@ -5,11 +5,11 @@ function Rules() {
         <div className="flex col rules white-bg" style={{alignItems: "flex-start"}}>
             <h3 className="heading spacer">Rules</h3>
             <p className="gap-0 flex">
-                <img className="icon" src="nonogram/icons/left-click.svg" alt="left"/>
+                <img className="icon" src="./icons/left-click.svg" alt="left"/>
                 Use left mouse click to fill a square
             </p>
             <p className="gap-0 flex">
-                <img className="icon" src="nonogram/icons/right-click.svg" alt="left"/>
+                <img className="icon" src="./icons/right-click.svg" alt="left"/>
                 Use right mouse click to mark square with a cross
             </p>
             <hr className="spacer"/>

@@ -111,7 +111,7 @@ function Level() {
             let cellContent = ""
             switch (answers[rowID][cellID]){
                 case 0: 
-                    cellContent =  <img src="nonogram/icons/cross.svg" alt="cross" className="scale" />
+                    cellContent =  <img src="./icons/cross.svg" alt="cross" className="scale" />
                     break
                 case 1: 
                     cellContent = <p className="black_cell scale"></p>
@@ -145,7 +145,7 @@ function Level() {
         <>
             <div className="flex col puzzle" onContextMenu={(e)=>{ e.preventDefault() }} >
                 <Link className="btn rounded flex fit-content gap-0 spacer" to="/home">
-                    <img src="nonogram/icons/back.svg" alt="back" />
+                    <img src="./icons/back.svg" alt="back" />
                     Select level 
                 </Link>
                 <div className="puzzle-col flex col">
