@@ -1,11 +1,9 @@
-import "../../css/axisGrid.css"
-import { useParams } from "react-router-dom"
+import React from "react"
 import { detectYgrid } from "./Level.functions"
 import levels from "./levels.json"
+import "../../css/axisGrid.css"
 
-const YAxisGrid = () =>{
-
-    const {id} = useParams()
+const YAxisGrid = React.memo(({id}) =>{
 
     const yGrid = detectYgrid(levels[id].answer)
 
@@ -22,6 +20,6 @@ const YAxisGrid = () =>{
         </>
     )
     
-}
+})
 
 export default YAxisGrid

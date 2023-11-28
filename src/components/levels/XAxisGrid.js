@@ -1,10 +1,9 @@
-import "../../css/axisGrid.css"
-import { useParams } from "react-router-dom"
+import React from "react"
 import { detectXgrid } from "./Level.functions"
 import levels from "./levels.json"
+import "../../css/axisGrid.css"
 
-const XAxisGrid = () =>{
-    const {id} = useParams()
+const XAxisGrid = React.memo(({id}) =>{
 
     const xGrid = detectXgrid(levels[id].answer)
 
@@ -21,6 +20,6 @@ const XAxisGrid = () =>{
         </>
     )
     
-}
+})
 
 export default XAxisGrid
